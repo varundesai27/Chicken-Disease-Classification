@@ -21,7 +21,10 @@ class PrepareCallbacks:
     def _create_ckpt_callbacks(self):
         return tf.keras.callbacks.ModelCheckpoint(
             filepath=self.config.checkpoint_model_filepath,
-            save_weights_only=True
+            save_weights_only=True,
+            save_best_only=True,
+            monitor="val_accuracy",
+            mode="max",
         )
     def get_tb_ckpt_callbacks(self):
         return [
