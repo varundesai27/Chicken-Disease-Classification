@@ -1,14 +1,4 @@
-# FROM python:3.8-slim-buster
-
-# RUN apt update -y && apt install awscli -y
-# WORKDIR /app
-
-# COPY . /app
-# RUN pip install -r requirements.txt
-
-# CMD ["python3","app.py"]
-
-# Use the official Python 3.8 base image
+# Official Python 3.8 base image
 FROM python:3.8
 
 # Set the working directory in the container
