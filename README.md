@@ -1,4 +1,4 @@
-
+<img width="1470" alt="Screenshot 2024-02-28 at 5 38 52 PM" src="https://github.com/varundesai27/Chicken-Disease-Classification/assets/72991104/e9c99af2-dc74-469a-8789-c56e7577b952">
 # Chicken Disease Classification 
 This project serves as a classification project based on the Deep Learning Model. It classifies whether there is Coccidiosis disease or not. It uses the concept of Modular coding.
 
@@ -85,4 +85,13 @@ python app.py
 ```bash
 docker build -t your_image_name .
 ```
+## RESULTS:
+- RESULT BASED ON THE FECAL IMAGE
+
+1. Disease identified as the Coccidiosis
+<img width="1470" alt="Screenshot 2024-02-28 at 5 38 52 PM" src="https://github.com/varundesai27/Chicken-Disease-Classification/assets/72991104/ec129249-587c-441f-84ae-be0f963d0df7">
+
+2. Healthy chicken fecal
+<img width="1470" alt="Screenshot 2024-02-28 at 5 39 18 PM" src="https://github.com/varundesai27/Chicken-Disease-Classification/assets/72991104/9c491ff3-0e8c-4e3c-a82d-52c21ac3d591">
+
 
