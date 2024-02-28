@@ -55,15 +55,16 @@ python main.py
 ```
 
 or
-Initialize DVC: 
+      
+- Initialize DVC: 
 ```bash
 dvc init
 ```
-Reproduce DVC:
+- Reproduce DVC:
 ```bash
 dvc repro
 ```
-Generate DVC DAG
+- Generate DVC DAG
 ```bash
 dvc dag
 ```
@@ -79,7 +80,7 @@ python app.py
 - Open Local Host and Port:
 - Open your local host and port in the browser. This project is currently running on the 8080 port.
 
-**To Create Docker Image:**
+## To Create Docker Image:
 
 ```bash
 docker build -t your_image_name .
