@@ -39,7 +39,7 @@ https://github.com/varundesai27/Chicken-Disease-Classification.git
 
 ```bash
 conda create -n your_env_name python=3.8 -y
-conda activate cnncls
+conda activate your_env_name
 ```
 
 3. **Install Requirements:**
